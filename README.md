@@ -18,8 +18,8 @@ Your quest is to park all the trailers on time and safe the world from complete 
 Controls
 --------
 
-- **w, a, s, d** or **arrows** - drive
-- **space** - attach/detach trailer
+- **w, a, s, d** / **arrows** - drive / menu navigation
+- **space** / **enter** - attach/detach trailer / menu click
 - **escape** - pause game
 
 Notes
