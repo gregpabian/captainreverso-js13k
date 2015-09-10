@@ -13,7 +13,7 @@ Your quest is to park all the trailers on time and safe the world from complete 
 
 **Play the game**: http://pixelchinchilla.com/captainreverso/
 
-![screenshot](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-gameplay.jpg)
+![screenshot](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-gameplay.png)
 
 Controls
 --------
@@ -30,13 +30,13 @@ Use Chrome for the best user experience. The game runs in Firefox and IE11 too, 
 Screenshots
 -----------
 
-![main menu](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-menu.jpg)
+![main menu](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-menu.png)
 
-![cutscene](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-cutscene.jpg)
+![cutscene](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-cutscene.png)
 
-![levels](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-levels.jpg)
+![levels](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-levels.png)
 
-![gameplay](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-gameplay2.jpg)
+![gameplay](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-gameplay2.png)
 
 Building
 --------
