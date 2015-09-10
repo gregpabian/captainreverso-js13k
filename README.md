@@ -25,7 +25,8 @@ Controls
 Notes
 -----
 
-Use Chrome for the best user experience. The game runs in Firefox and IE11 too, but the performance may vary, also there are no sounds in IE.
+Use **Chrome** for the best user experience.
+The game runs in Firefox (crap performance) and IE11 (no sound).
 
 Screenshots
 -----------
