@@ -25,8 +25,8 @@ Controls
 Notes
 -----
 
-Use **Chrome** for the best user experience.
-The game runs in Firefox (crap performance) and IE11 (no sound).
+Use **Chrome** or **Safari** for the best user experience.
+The game also runs Firefox (crap performance) and IE11 (no sound).
 
 Screenshots
 -----------
