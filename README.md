@@ -1,6 +1,8 @@
 Captain Reverso: *the missing truckers*
 =======================================
 
+[![](https://img.shields.io/badge/js13kGames-2015-b12a34.svg)](http://js13kgames.com/entries/captain-reverso)
+
 Captain Reverso - a [js13kGames](http://js13kgames.com) 2015 entry.
 
 You're a truck driver named Bob, who wakes up one day with a huge hangover, realizing that for some mysterious reason all other truckers disappeared... That's how **Captain Reverso** is born!
