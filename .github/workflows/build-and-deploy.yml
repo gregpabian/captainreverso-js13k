@@ -40,13 +40,16 @@ jobs:
           npx grunt copy:sprite
           npx grunt concat
           npx grunt wrap
+
+      - name: Copy concatenated JS as game.min.js (before htmlrefs)
+        run: cp build/game.js build/game.min.js
+
+      - name: Continue build
+        run: |
           npx grunt cssmin
           npx grunt htmlrefs
           npx grunt htmlmin
           npx grunt imagemin
-
-      - name: Copy concatenated JS as game.min.js
-        run: cp build/game.js build/game.min.js
 
       - name: List build directory contents
         run: |
@@ -55,6 +58,7 @@ jobs:
           echo "---"
           if [ -f build/index.html ]; then
             echo "✅ index.html exists"
+            head -20 build/index.html
           else
             echo "❌ index.html NOT FOUND"
           fi
