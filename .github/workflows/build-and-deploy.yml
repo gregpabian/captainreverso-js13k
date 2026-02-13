@@ -29,24 +29,24 @@ jobs:
         with:
           node-version: '10'
 
-      - name: Setup Java (required for Closure Compiler)
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '11'
-
-      - name: Install Closure Compiler
-        run: |
-          mkdir -p ~/closure-compiler
-          cd ~/closure-compiler
-          wget https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20150609/closure-compiler-v20150609.jar
-          echo "CLOSURE_PATH=$HOME/closure-compiler" >> $GITHUB_ENV
-
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
-        run: npm run build
+      - name: Build project (without closure compiler)
+        run: |
+          npx grunt lint
+          npx grunt clean:build
+          npx grunt sprite
+          npx grunt copy:sprite
+          npx grunt concat
+          npx grunt wrap
+          npx grunt cssmin
+          npx grunt htmlrefs
+          npx grunt htmlmin
+          npx grunt imagemin
+
+      - name: Copy concatenated JS as game.min.js
+        run: cp build/game.js build/game.min.js
 
       - name: List build directory contents
         run: |
