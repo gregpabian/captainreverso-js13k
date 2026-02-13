@@ -32,8 +32,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
-        run: npm run build
+      - name: Build project with verbose output
+        run: npm run build -- --verbose --stack
 
       - name: List build directory contents
         run: |
