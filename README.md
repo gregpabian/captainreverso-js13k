@@ -13,7 +13,7 @@ Your quest is to park all the trailers on time and safe the world from complete 
 
 **Final size**: 13.311 bytes
 
-**Play the game**: http://pixelchinchilla.com/captainreverso/
+**Play the game**: [http://pixelchinchilla.com/captainreverso/](https://gregpabian.github.io/captainreverso-js13k/)
 
 ![screenshot](https://raw.githubusercontent.com/gregpabian/captainreverso-js13k/master/reverso-gameplay.png)
 
