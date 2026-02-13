@@ -35,13 +35,24 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List build directory contents
+        run: |
+          echo "Contents of build directory:"
+          ls -la build/
+          echo "---"
+          if [ -f build/index.html ]; then
+            echo "✅ index.html exists"
+          else
+            echo "❌ index.html NOT FOUND"
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './build'
 
   deploy:
     environment:
